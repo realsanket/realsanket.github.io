@@ -10,3 +10,7 @@ consent screen → Branding).
 
 Plain HTML + CSS, served by GitHub Pages from `main`. The tool itself lives in the private studio repo
 (`tools/youtube.py`, `docs/youtube.md`).
+
+**Keep the `google-site-verification` meta tag in `index.html`**: it proves to Google Search Console that this site
+belongs to the Google account that owns the OAuth app (verified 2026-10-21). Removing it un-verifies the site and the
+app's branding check fails again.
