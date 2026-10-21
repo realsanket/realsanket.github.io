@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sketch the Cloud Publisher</title>
+<meta name="description" content="Sketch the Cloud Publisher: the tool that uploads and manages the videos of the YouTube channel Sketch the Cloud through the YouTube API.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="hero">
+    <img src="logo.svg" alt="Sketch the Cloud logo: a lime cloud with a small system drawn inside">
+    <h1>Sketch the Cloud Publisher</h1>
+    <p class="lead">The publishing tool of the YouTube channel
+      <a href="https://www.youtube.com/@sketchthecloud">Sketch the Cloud</a>.</p>
+    <p class="links"><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+  </section>
+
+  <div class="card">
+    <h2 style="margin-top:0">What the app does</h2>
+    <p>Sketch the Cloud Publisher uploads the channel's finished videos to YouTube and keeps track of how they perform.
+      For each video it:</p>
+    <ul>
+      <li>uploads the video file to the Sketch the Cloud channel;</li>
+      <li>sets its title, description, tags, category, language, thumbnail and subtitles;</li>
+      <li>sets its privacy (private, public, or public at a scheduled time);</li>
+      <li>reads back the channel's name, handle and statistics (views, subscribers) and the YouTube Analytics reports of
+        the channel's own videos, so the channel can see which videos work.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Why it asks for access to a Google account</h2>
+    <p>Uploading to a YouTube channel requires the channel owner's permission, given on Google's sign-in screen. The app
+      asks for two permissions, and uses each only for the purpose above:</p>
+    <ul>
+      <li><strong>Manage your YouTube account</strong> (<code>youtube.force-ssl</code>): to upload the videos and set
+        their details, thumbnails and subtitles.</li>
+      <li><strong>View YouTube Analytics reports</strong> (<code>yt-analytics.readonly</code>): to read the statistics of
+        the channel's own videos.</li>
+    </ul>
+    <p>The app is used only by the owner of the Sketch the Cloud channel, for that one channel. It does not collect data
+      about viewers or anyone else, shows no ads and sells nothing. How the data is handled, stored and deleted:
+      <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">About the channel</h2>
+    <p>Sketch the Cloud explains cloud, data and AI systems <span class="hand">by drawing them</span>: long videos and
+      Shorts, in English and Hindi. How does cloud storage keep your data when a datacenter goes down? What happens when
+      you call an AI model? Each video draws one system step by step, simple first, then deep.</p>
+    <a class="btn" href="https://www.youtube.com/@sketchthecloud">Watch on YouTube →</a>
+  </div>
+</main>
+<footer>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="https://www.youtube.com/@sketchthecloud">YouTube</a>
+</footer>
+</body>
+</html>
